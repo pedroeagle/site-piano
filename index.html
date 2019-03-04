@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <title>Tudo sobre Piano</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<script type="text/javascript" src="js/funcoes.js"></script>
+<div id="menu">
+<img id="nota" src="images/piano-cortado-aumentado.png" no-repeat usemap="#piano"/>
+<audio id="aac" src="audio/teclas/C3.aac" type="audio/mp4"></audio>
+<audio id="ogg" src="audio/teclas/C3.ogg" type="audio/ogg"></audio>
+<audio id="mp3" src="audio/teclas/C3.mp3" type="audio/mpeg"></audio>
+    <ul>
+        <li onMouseOver="mudaFoto('C3P')" onMouseOut="mudaFoto('default')" id="home" class="menu"><a href="index.html" style="cursor: default">Home</a></li>
+        <li onMouseOver="mudaFoto('E3P')" onMouseOut="mudaFoto('default')" id="hist" class="menu"><a href="history.html" style="cursor: default">História</a></li>
+        <li onMouseOver="mudaFoto('G3P')" onMouseOut="mudaFoto('default')" id="apren" class="menu"><a href="learn.html" style="cursor: default">Aprenda</a></li>
+        <li onMouseOver="mudaFoto('C4P')" onMouseOut="mudaFoto('default')" id="galer" class="menu"><a href="galery.html" style="cursor: default">Galeria</a></li>
+        <li onMouseOver="mudaFoto('E4P')" onMouseOut="mudaFoto('default')" id="musica" class="menu"><a href="music.html" style="cursor: default">Música</a></li>
+        <li onMouseOver="mudaFoto('G4P')" onMouseOut="mudaFoto('default')" id="mais" class="menu"><a href="more.html" style="cursor: default">Mais</a></li>
+	</ul>
+    <map name="piano">
+    	<area shape="poly" id="C3" coords="0,0, 0,200, 27,200, 28,132, 15,132, 15,0" style="cursor:default" onMouseOver="mudaFoto('C3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('C3P');tocaNotaAac('C3');tocaNotaMp3('C3');tocaNotaOgg('C3');"/>
+    	<area shape="poly" id="CS3" coords="15,0, 15,132, 33,132, 33, 0" style="cursor:default" onMouseOver="mudaFoto('CS3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('CS3P');tocaNotaAac('CS3');tocaNotaMp3('CS3');tocaNotaOgg('CS3');"/>
+    	<area shape="poly" id="D3" coords="33,0, 33,132, 30,132, 30,200, 55,200, 57,132, 50,132, 50,0" style="cursor:default" onMouseOver="mudaFoto('D3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('D3P');tocaNotaAac('D3');tocaNotaMp3('D3');tocaNotaOgg('D3');"/>
+    	<area shape="poly" id="DS3" coords="51,0, 51,133, 68,133, 68,0" style="cursor:default" onMouseOver="mudaFoto('DS3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('DS3P');tocaNotaAac('DS3');tocaNotaMp3('DS3');tocaNotaOgg('DS3');"/>
+    	<area shape="poly" id="E3" coords="69,0, 69,132, 57,132, 57,200, 82,200, 82,0" style="cursor:default" onMouseOver="mudaFoto('E3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('E3P');tocaNotaAac('E3');tocaNotaMp3('E3');tocaNotaOgg('E3');"/>
+    	<area shape="poly" id="F3" coords="84,0, 84,200, 110,200, 110,132, 97,132, 97,0" style="cursor:default" onMouseOver="mudaFoto('F3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('F3P');tocaNotaAac('F3');tocaNotaMp3('F3');tocaNotaOgg('F3');"/>
+    	<area shape="poly" id="FS3" coords="99,0, 99,131, 115,131, 115,0" style="cursor:default" onMouseOver="mudaFoto('FS3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('FS3P');tocaNotaAac('FS3');tocaNotaMp3('FS3');tocaNotaOgg('FS3');"/>
+    	<area shape="poly" id="G3" coords="117,0, 117,132, 112,132, 112,200, 137,200, 137,132, 129,132, 129,0" style="cursor:default" onMouseOver="mudaFoto('G3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('G3P');tocaNotaAac('G3');tocaNotaMp3('G3');tocaNotaOgg('G3');"/>
+    	<area shape="poly" id="GS3" coords="130,0, 130,132, 147,132, 147,0" style="cursor:default" onMouseOver="mudaFoto('GS3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('GS3P');tocaNotaAac('GS3');tocaNotaMp3('GS3');tocaNotaOgg('GS3');"/>
+    	<area shape="poly" id="A3" coords="148,0, 148,133, 140,133, 140,200, 165,200, 165,133, 160,133, 160,0" style="cursor:default" onMouseOver="mudaFoto('A3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('A3P');tocaNotaAac('A3');tocaNotaMp3('A3');tocaNotaOgg('A3');"/>
+    	<area shape="poly" id="AS3" coords="161,0, 161,132, 177,132, 177,0," style="cursor:default" onMouseOver="mudaFoto('AS3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('AS3P');tocaNotaAac('AS3');tocaNotaMp3('AS3');tocaNotaOgg('AS3');"/>
+    	<area shape="poly" id="B3" coords="179,0, 179,132, 167,132, 167,200, 192,200, 192,0" style="cursor:default" onMouseOver="mudaFoto('B3')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('B3P');tocaNotaAac('B3');tocaNotaMp3('B3');tocaNotaOgg('B3');"/>
+    	<area shape="poly" id="C4" coords="195,0, 195,200, 220,200, 220,132, 208,132, 208,0" style="cursor:default" onMouseOver="mudaFoto('C4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('C4P');tocaNotaAac('C4');tocaNotaMp3('C4');tocaNotaOgg('C4');"/>
+    	<area shape="poly" id="CS4" coords="209,0, 209,132, 226,132, 226,0" style="cursor:default" onMouseOver="mudaFoto('CS4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('CS4P');tocaNotaAac('CS4');tocaNotaMp3('CS4');tocaNotaOgg('CS4');"/>
+    	<area shape="poly" id="D4" coords="227,0, 227,132, 222,132, 222,200, 247,200, 247,132, 243,132, 243,0" style="cursor:default" onMouseOver="mudaFoto('D4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('D4P');tocaNotaAac('D4');tocaNotaMp3('D4');tocaNotaOgg('D4');"/>
+    	<area shape="poly" id="DS4" coords="243,0, 243,132, 260,132, 260,0" style="cursor:default" onMouseOver="mudaFoto('DS4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('DS4P');tocaNotaAac('DS4');tocaNotaMp3('DS4');tocaNotaOgg('DS4');"/>
+    	<area shape="poly" id="E4" coords="262,0, 262,132, 249,132, 250,200, 276,200, 276,0" style="cursor:default" onMouseOver="mudaFoto('E4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('E4P');tocaNotaAac('E4');tocaNotaMp3('E4');tocaNotaOgg('E4');"/>
+    	<area shape="poly" id="F4" coords="277,0, 277,200, 303,200, 302,132, 290,132, 290,0" style="cursor:default" onMouseOver="mudaFoto('F4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('F4P');tocaNotaAac('F4');tocaNotaMp3('F4');tocaNotaOgg('F4');"/>
+    	<area shape="poly" id="FS4" coords="291,0, 291,132, 308,132, 308,0" style="cursor:default" onMouseOver="mudaFoto('FS4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('FS4P');tocaNotaAac('FS4');tocaNotaMp3('FS4');tocaNotaOgg('FS4');"/>
+    	<area shape="poly" id="G4" coords="309,0, 309,132, 304,132, 304,200, 331,200, 330,132, 322,132, 322,0" style="cursor:default" onMouseOver="mudaFoto('G4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('G4P');tocaNotaAac('G4');tocaNotaMp3('G4');tocaNotaOgg('G4');"/>
+    	<area shape="poly" id="GS4" coords="322,0, 322,132, 340,132, 340,0" style="cursor:default" onMouseOver="mudaFoto('GS4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('GS4P');tocaNotaAac('GS4');tocaNotaMp3('GS4');tocaNotaOgg('GS4');"/>
+    	<area shape="poly" id="A4" coords="341,0, 341,132, 332,132, 332,200, 358,200, 358,200, 358,132, 352,132, 352,0" style="cursor:default" onMouseOver="mudaFoto('A4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('A4P');tocaNotaAac('A4');tocaNotaMp3('A4');tocaNotaOgg('A4');"/>
+    	<area shape="poly" id="AS4" coords="354,0, 354,132, 372,132, 372,0" style="cursor:default" onMouseOver="mudaFoto('AS4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('AS4P');tocaNotaAac('AS4');tocaNotaMp3('AS4');tocaNotaOgg('AS4');"/>
+    	<area shape="poly" id="B4" coords="372,0, 372,132, 360,132, 360,200, 386,200, 386,0" style="cursor:default" onMouseOver="mudaFoto('B4')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('B4P');tocaNotaAac('B4');tocaNotaMp3('B4');tocaNotaOgg('B4');"/>
+    	<area shape="poly" id="C5" coords="388,0, 388,200, 412,200, 412,132, 400,132, 400,0" style="cursor:default" onMouseOver="mudaFoto('C5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('C5P');tocaNotaAac('C5');tocaNotaMp3('C5');tocaNotaOgg('C5');"/>
+    	<area shape="poly" id="CS5" coords="401,0, 401,132, 418,132, 418,0" style="cursor:default" onMouseOver="mudaFoto('CS5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('CS5P');tocaNotaAac('CS5');tocaNotaMp3('CS5');tocaNotaOgg('CS5');"/>
+    	<area shape="poly" id="D5" coords="418,0, 418,132, 415,132, 415,200, 441,200, 441,132, 436,132, 436,0" style="cursor:default" onMouseOver="mudaFoto('D5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('D5P');tocaNotaAac('D5');tocaNotaMp3('D5');tocaNotaOgg('D5');"/>
+    	<area shape="poly" id="DS5" coords="437,0, 437,132, 453,132, 453,0" style="cursor:default" onMouseOver="mudaFoto('DS5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('DS5P');tocaNotaAac('DS5');tocaNotaMp3('DS5');tocaNotaOgg('DS5');"/>
+    	<area shape="poly" id="E5" coords="454,0, 454,132, 442,132, 442,200, 468,200, 468,0" style="cursor:default" onMouseOver="mudaFoto('E5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('E5P');tocaNotaAac('E5');tocaNotaMp3('E5');tocaNotaOgg('E5');"/>
+    	<area shape="poly" id="F5" coords="470,0, 470,200, 486,200, 495,132, 484,132, 484,0" style="cursor:default" onMouseOver="mudaFoto('F5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('F5P');tocaNotaAac('F5');tocaNotaMp3('F5');tocaNotaOgg('F5');"/>
+    	<area shape="poly" id="FS5" coords="484,0, 484,132, 501,132, 501,0" style="cursor:default" onMouseOver="mudaFoto('FS5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('FS5P');tocaNotaAac('FS5');tocaNotaMp3('FS5');tocaNotaOgg('FS5');"/>
+    	<area shape="poly" id="G5" coords="501,0, 501,132, 498,132, 498,200, 523,200, 523,132 515,132, 515,0" style="cursor:default" onMouseOver="mudaFoto('G5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('G5P');tocaNotaAac('G5');tocaNotaMp3('G5');tocaNotaOgg('G5');"/>
+    	<area shape="poly" id="GS5" coords="515,0, 515,132, 533,132, 533,0" style="cursor:default" onMouseOver="mudaFoto('GS5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('GS5P');tocaNotaAac('GS5');tocaNotaMp3('GS5');tocaNotaOgg('GS5');"/>
+    	<area shape="poly" id="A5" coords="533,0, 533,132, 525,132, 525,200, 551,200, 551,132, 545,132, 545,0" style="cursor:default" onMouseOver="mudaFoto('A5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('A5P');tocaNotaAac('A5');tocaNotaMp3('A5');tocaNotaOgg('A5');"/>
+    	<area shape="poly" id="AS5" coords="545,0, 545,132, 564,132, 564,132" style="cursor:default" onMouseOver="mudaFoto('AS5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('AS5P');tocaNotaAac('AS5');tocaNotaMp3('AS5');tocaNotaOgg('AS5');"/>
+    	<area shape="poly" id="B5" coords="564,0, 564,132, 553,132, 553,200, 578,200, 578,0" style="cursor:default" onMouseOver="mudaFoto('B5')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('B5P');tocaNotaAac('B5');tocaNotaMp3('B5');tocaNotaOgg('B5');"/>
+    	<area shape="poly" id="C6" coords="580,0, 580,200, 606,200, 606,132, 593,132, 593,0" style="cursor:default" onMouseOver="mudaFoto('C6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('C6P');tocaNotaAac('C6');tocaNotaMp3('C6');tocaNotaOgg('C6');"/>
+    	<area shape="poly" id="CS6" coords="594,0, 594,132, 610,132, 610,0" style="cursor:default" onMouseOver="mudaFoto('CS6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('CS6P');tocaNotaAac('CS6');tocaNotaMp3('CS6');tocaNotaOgg('CS6');"/>
+    	<area shape="poly" id="D6" coords="611,0, 611,132, 607,132, 607,200, 633,200, 633,132, 628,132, 628,0" style="cursor:default" onMouseOver="mudaFoto('D6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('D6P');tocaNotaAac('D6');tocaNotaMp3('D6');tocaNotaOgg('D6');"/>
+    	<area shape="poly" id="DS6" coords="628,0, 628,132, 646,132, 646,0" style="cursor:default" onMouseOver="mudaFoto('DS6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('DS6P');tocaNotaAac('DS6');tocaNotaMp3('DS6');tocaNotaOgg('DS6');"/>
+    	<area shape="poly" id="E6" coords="647,0, 647,132, 635,132, 635,200, 660,200, 660,0 " style="cursor:default" onMouseOver="mudaFoto('E6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('E6P');tocaNotaAac('E6');tocaNotaMp3('E6');tocaNotaOgg('E6');"/>
+    	<area shape="poly" id="F6" coords="662,0, 662,200, 689,200, 689,132, 675,132, 675,0" style="cursor:default" onMouseOver="mudaFoto('F6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('F6P');tocaNotaAac('F6');tocaNotaMp3('F6');tocaNotaOgg('F6');"/>
+    	<area shape="poly" id="FS6" coords="676,0, 676,132, 693,132, 693,0" style="cursor:default" onMouseOver="mudaFoto('FS6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('FS6P');tocaNotaAac('FS6');tocaNotaMp3('FS6');tocaNotaOgg('FS6');"/>
+    	<area shape="poly" id="G6" coords="694,0, 694,132, 690,132, 690,200, 716,200, 716,132, 707,132, 707,0" style="cursor:default" onMouseOver="mudaFoto('G6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('G6P');tocaNotaAac('G6');tocaNotaMp3('G6');tocaNotaOgg('G6');"/>
+    	<area shape="poly" id="GS6" coords="707,0, 707,132, 725,132, 725,0" style="cursor:default" onMouseOver="mudaFoto('GS6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('GS6P');tocaNotaAac('GS6');tocaNotaMp3('GS6');tocaNotaOgg('GS6');"/>
+    	<area shape="poly" id="A6" coords="726,0, 726,132, 717,132, 717,200, 743,200, 743,132, 737,132, 737,0" style="cursor:default" onMouseOver="mudaFoto('A6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('A6P');tocaNotaAac('A6');tocaNotaMp3('A6');tocaNotaOgg('A6');"/>
+    	<area shape="poly" id="AS6" coords="739,0, 739,132, 756,132, 756,0" style="cursor:default" onMouseOver="mudaFoto('AS6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('AS6P');tocaNotaAac('AS6');tocaNotaMp3('AS6');tocaNotaOgg('AS6');"/>
+    	<area shape="poly" id="B6" coords="757,0, 757,132, 744,132, 744,200, 771,200, 771,0" style="cursor:default" onMouseOver="mudaFoto('B6')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('B6P');tocaNotaAac('B6');tocaNotaMp3('B6');tocaNotaOgg('B6');"/>
+    	<area shape="poly" id="C7" coords="772,0, 772,200, 800,200, 800,0" style="cursor:default" onMouseOver="mudaFoto('C7')" onMouseOut="mudaFoto('default')" onClick="mudaFoto('C7P');tocaNotaAac('C7');tocaNotaMp3('C7');tocaNotaOgg('C7');"/>
+	</map>
+</div>
+<body>
+</body>
+</html>
